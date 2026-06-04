@@ -191,6 +191,13 @@ export default function ApprovalRequestPage() {
         color: "#0f172a"
       }}
     >
+      <div style={brandedHeaderStyle}>
+        <img
+      src="https://i.imgur.com/M0InQDB.png"
+      alt="Technical Source"
+      style={brandLogoStyle}
+      />
+      </div>
       <div
         style={{
           width: "100%",
@@ -502,4 +509,20 @@ const tdStyle: React.CSSProperties = {
   padding: "10px",
   borderBottom: "1px solid #e2e8f0",
   verticalAlign: "top"
+};
+
+const brandedHeaderStyle: React.CSSProperties = {
+  width: "100%",
+  maxWidth: "980px",
+  margin: "0 auto 18px auto",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center"
+};
+
+const brandLogoStyle: React.CSSProperties = {
+  width: "260px",
+  maxWidth: "80%",
+  height: "auto",
+  display: "block"
 };
